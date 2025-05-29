@@ -4,6 +4,9 @@
 
 A standalone Python tool that automatically generates realistic AI textures for 3D OBJ models and renders them from multiple perspectives using Blender.
 
+![Example Output](output/test/perspective_front_right.png)
+*Example: AI-generated texture applied to a 3D building model with realistic lighting*
+
 ## ✨ Features
 
 - **AI Texture Generation**: Creates photorealistic building facade textures using Stable Diffusion
@@ -12,6 +15,12 @@ A standalone Python tool that automatically generates realistic AI textures for 
 - **Professional Lighting**: Urban sky environment with realistic lighting setup
 - **High-Quality Output**: Cycles rendering engine with denoising for crisp results
 - **Multiple AI Models**: Supports RealVisXL, DreamShaper XL, and SDXL fallbacks
+
+## 🔮 Future Enhancements
+
+- **Surface Differentiation**: Intelligent roof and road texture recognition for specialized material application
+- **Enhanced Wall Fitting**: Improved texture mapping algorithms for better wall surface coverage and alignment
+- **Material-Specific AI**: Different AI models optimized for roofs, walls, and road surfaces
 
 ## 🚀 Quick Start
 
@@ -23,11 +32,7 @@ A standalone Python tool that automatically generates realistic AI textures for 
 
 ### Installation
 
-1. Clone this repository:
-```bash
-git clone <repository-url>
-cd ai-obj-mapper
-```
+1. Clone this repository
 
 2. Install dependencies:
 ```bash
