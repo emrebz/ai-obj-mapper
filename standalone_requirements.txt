@@ -1,0 +1,22 @@
+# Core AI and Image Processing
+torch>=2.0.0
+diffusers>=0.21.0
+transformers>=4.30.0
+accelerate>=0.20.0
+
+# Image Processing
+Pillow>=9.0.0
+numpy>=1.21.0
+
+# Path handling (built-in in Python 3.4+)
+# pathlib
+
+# Optional GPU acceleration
+# Uncomment based on your system:
+# CUDA: torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+# Metal (Apple Silicon): torch torchvision torchaudio
+
+# Development (optional)
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=5.0.0 
