@@ -123,7 +123,6 @@ dmypy.json
 .pyre/
 
 # AI OBJ Mapper specific
-output/
 renders/
 ai_textures/
 *.blend
@@ -131,6 +130,11 @@ ai_textures/
 *.png
 *.jpg
 *.jpeg
+
+# Exception: Allow test files in output/test/
+!output/test/
+!output/test/*
+!output/test/**/*
 
 # macOS
 .DS_Store
